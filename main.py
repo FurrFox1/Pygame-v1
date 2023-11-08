@@ -10,7 +10,6 @@ pygame.init()
 anillo_sonido = pygame.mixer.Sound("./Sonidos/ring.mp3")
 meteoro_sonido = pygame.mixer.Sound("./Sonidos/damage.mp3")
 powerup_sonido = pygame.mixer.Sound("./Sonidos/powerup.mp3")
-salto_sonido = pygame.mixer.Sound("./Sonidos/jump.mp3")
 perder_sonido = pygame.mixer.Sound("./Sonidos/dead.mp3")
 
 # VENTANA DE INICIO

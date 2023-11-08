@@ -23,6 +23,7 @@ pygame.display.set_caption("Super Sonic Survival")
 ejecutando = True
 
 # Reloj
+
 clock = pygame.time.Clock()
 
 # Listas
@@ -58,7 +59,7 @@ fondo = pygame.transform.scale(fondo, SIZE)
 fondo_x = 0
 fondo_velocidad = 20
 
-#
+# Archivo Maxscore
 try:
     with open("./Maxscore.txt", "r") as file:
         max_tiempo = int(file.readline().strip())
