@@ -187,6 +187,7 @@ while ejecutando:
         mostrar_texto(VENTANA, 48, "Presiona 'Escape' para salir del juego", None, BLANCO, None, (ancho // 2, largo // 2 + 160))
 
         pygame.display.flip()
+        reiniciar = False
 
         # Post-Game over
         while not reiniciar:
